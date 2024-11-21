@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>  <title>AC Voetbalshop</title>
+    <link rel="icon" type="image/jpg" href="Images/Favicon.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <h2 class="name-webshop">AC-Voetbalshop</h2>
+            <a href="home.html">
+                <img class="logo-nav" src="Images/Logo.png" alt="Website Logo" width="40">
+            </a>
+    
+            <ul class="nav-lijst">
+                <li><a href="producten.html">Producten</a></li>
+                <li><a href="contact.html">Contact</a></li> 
+                <li><a href="over-ons.html">Over Ons</a></li>
+            </ul>
+
+            <input type="text" class="search-bar" placeholder="Doorzoek de winkel">
+            <section class="icons">
+                <img src="images/user.png" alt="user" class="icon">
+                <img src="images/heart.png" alt="heart" class="icon">
+                <img src="images/shopping-cart.png" alt="cart" class="icon">
+            </section>
+        </nav>
+    </header>
+    <footer>
+        <section id="contact">
+            <p>Heb je vragen? Neem gerust contact met ons op via onderstaand formulier.</p>
+            <form action="inschrijven">
+                <label for="name">Naam:</label>
+                <input type="text" id="name" name="name" placeholder="Jouw naam" required>
+    
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Jouw e-mailadres" required>
+    
+                <label for="message">Bericht:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Typ hier je bericht" required></textarea>
+    
+                <button type="submit">Verstuur</button>
+            </form>
+        </section>
+    </footer>
+</body>
+</html>
