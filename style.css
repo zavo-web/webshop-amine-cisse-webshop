@@ -60,7 +60,7 @@ html, body {
     display: flex;
     align-items: center;
     text-align: end;
-    gap:15px
+    gap: 15px;
 }
 
 .search-bar {
